@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://be67h6j3cldbu"
+path="res://.godot/imported/No Copyright Music  Lofi - Lofi Loop 1 Minute Looping.mp3-26293dc5efe039bb36f7763fb2db269f.mp3str"
+
+[deps]
+
+source_file="res://assets/Audio/No Copyright Music  Lofi - Lofi Loop 1 Minute Looping.mp3"
+dest_files=["res://.godot/imported/No Copyright Music  Lofi - Lofi Loop 1 Minute Looping.mp3-26293dc5efe039bb36f7763fb2db269f.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

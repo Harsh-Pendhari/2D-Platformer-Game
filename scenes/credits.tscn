@@ -1,0 +1,107 @@
+[gd_scene load_steps=5 format=3 uid="uid://cnmpb5m1f6inu"]
+
+[ext_resource type="Script" path="res://assets/scripts/credits.gd" id="1_ydjqf"]
+[ext_resource type="AudioStream" uid="uid://dwkn87j78lty8" path="res://assets/Audio/click.mp3" id="2_cehf8"]
+[ext_resource type="FontFile" uid="uid://dnxjt3vmht0h3" path="res://assets/font/fs gravity.ttf" id="2_ewl1c"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4hncu"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="Credits" type="Node2D"]
+position = Vector2(68, 1)
+script = ExtResource("1_ydjqf")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0, 0, 0, 0.862745)
+metadata/_edit_lock_ = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="CanvasLayer"]
+offset_right = 1152.0
+offset_bottom = 648.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_4hncu")
+metadata/_edit_lock_ = true
+
+[node name="TITLE" type="Label" parent="CanvasLayer"]
+offset_left = 68.0
+offset_top = -12.0
+offset_right = 513.0
+offset_bottom = 39.0
+theme_override_constants/outline_size = 1
+theme_override_constants/shadow_outline_size = 0
+theme_override_fonts/font = ExtResource("2_ewl1c")
+theme_override_font_sizes/font_size = 20
+text = "CREDITS"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Body" type="Label" parent="CanvasLayer"]
+offset_left = 68.0
+offset_top = 20.6
+offset_right = 513.0
+offset_bottom = 240.6
+size_flags_horizontal = 3
+size_flags_vertical = 6
+theme_override_constants/outline_size = 0
+theme_override_constants/line_spacing = -1
+theme_override_fonts/font = ExtResource("2_ewl1c")
+theme_override_font_sizes/font_size = 8
+text = "---------------
+JJ game studio
+---------------
+
+STUDIO HEAD
+➢ Harsh Pendhari
+
+GAME ASSETS (BACKGROUND, CHARACTER-SPRITE, PLATFORM-TILESET, etc)
+➢ itch.io
+
+GAME SCRIPT
+➢ Harsh Pendhari
+
+FONTS
+➢ Fonts made from Web Fonts is Licensed by CC BY 4.0
+
+PROGRAMMING/ CODING
+➢ Harsh Pendhari
+
+GAME DEVELOPER | PROJECT-MANAGER | DIRECTOR
+➢ Harsh Pendhari
+
+MAIN-MENU UI DESIGN
+➢ Altamash Shaikh"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="CanvasLayer"]
+offset_left = 271.0
+offset_top = 239.0
+offset_right = 307.0
+offset_bottom = 258.0
+theme_override_fonts/font = ExtResource("2_ewl1c")
+theme_override_font_sizes/font_size = 9
+text = "< BACK"
+metadata/_edit_use_anchors_ = true
+
+[node name="click" type="AudioStreamPlayer2D" parent="CanvasLayer/Button"]
+stream = ExtResource("2_cehf8")
+volume_db = 2.0
+
+[node name="LinkButton" type="LinkButton" parent="CanvasLayer"]
+offset_left = 347.0
+offset_top = 345.0
+offset_right = 558.0
+offset_bottom = 354.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(1, 1, 1, 1)
+uri = "http://www.onlinewebfonts.com"
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="CanvasLayer/Button" to="." method="_on_button_pressed"]
+[connection signal="finished" from="CanvasLayer/Button/click" to="." method="_on_click_finished"]

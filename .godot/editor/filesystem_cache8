@@ -1,0 +1,139 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1751136378
+::res://assets/::1751136345
+::res://assets/Audio/::1751136344
+click.mp3::AudioStreamMP3::8724910336910371141::1705500692::1705500692::1::::<><>::
+jump.mp3::AudioStreamMP3::4999841022374284895::1705165880::1705165891::1::::<><>::
+mobile_gmsJA9yM.mp3::AudioStreamMP3::3602349042571265531::1705163662::1705163707::1::::<><>::
+No Copyright Music  Lofi - Lofi Loop 1 Minute Looping.mp3::AudioStreamMP3::2733128856349339386::1705661870::1705662225::1::::<><>::
+::res://assets/background/::1751136344
+1.png::CompressedTexture2D::6446458922378035411::1702304627::1704792412::1::::<><>::
+Background(half).png::CompressedTexture2D::2208620234477532748::1700976738::1704792977::1::::<><>::
+background.ogg::AudioStreamOggVorbis::3500997243542687363::1705837135::1705837155::1::::<><>::
+Background.png::CompressedTexture2D::8117948816555161691::1700976738::1704792977::1::::<><>::
+bg_space_seamless_1.png::CompressedTexture2D::7085017935351849548::1705074495::1705074503::1::::<><>::
+Can You Reach_ (DEBUG) 21_01_2024 17_39_47.png::CompressedTexture2D::4470114920237066155::1705839016::1705839022::1::::<><>::
+day-1.png::CompressedTexture2D::7181382014996197638::1702304627::1704792897::1::::<><>::
+Overlay.png::CompressedTexture2D::6680812302971287182::1702304627::1704792823::1::::<><>::
+snow-bg.png::CompressedTexture2D::5659260712361887765::1701494948::1704792613::1::::<><>::
+::res://assets/character/::1751136344
+::res://assets/character/Swordsman/::1751136344
+Dead.png::CompressedTexture2D::6792448069214110454::1702210474::1702210493::1::::<><>::
+Hurt.png::CompressedTexture2D::2612469425507574921::1702210474::1702210493::1::::<><>::
+Idle.png::CompressedTexture2D::4684925815619506281::1702210474::1702210493::1::::<><>::
+Idle_2.png::CompressedTexture2D::3759216380820812748::1702210474::1702210493::1::::<><>::
+Jump.png::CompressedTexture2D::3177533616309868126::1702210474::1702210493::1::::<><>::
+Run.png::CompressedTexture2D::430992177793691289::1702210474::1702210493::1::::<><>::
+Walk.png::CompressedTexture2D::7338069223784277909::1702210474::1702210493::1::::<><>::
+::res://assets/font/::1751136344
+fs gravity.ttf::FontFile::8119779593386242358::1705747693::1705747734::1::::<><>::
+Sweet Signature.ttf::FontFile::8457371385322381863::1704812175::1704812175::1::::<><>::
+::res://assets/img/::1751136345
+044bc039079c7c71d3fb8d4e8336d507.jpg::CompressedTexture2D::2489633219515656812::1705753869::1705753892::1::::<><>::
+044bc039079c7c71d3fb8d4e8336d507.png::CompressedTexture2D::607108340793861405::1705754108::1705754108::1::::<><>::
+arrow.png::CompressedTexture2D::8711823698004746346::1708417278::1708417364::1::::<><>::
+curve arrow.png::CompressedTexture2D::5159250818342623600::1700988603::1704792640::1::::<><>::
+flying-ice-jump-game-island-vector-47713325.png::CompressedTexture2D::6683123158961345963::1701691843::1704792640::1::::<><>::
+highlight.png::CompressedTexture2D::5710461207111285717::1701002809::1704792640::1::::<><>::
+moving-iceptfrm.png::CompressedTexture2D::460529978018427690::1701702326::1704792640::1::::<><>::
+png-transparent-collins-english-dictionary-translation-rocket-spaceship-english-spacecraft-rocket-launch-thumbnail (1).png::CompressedTexture2D::2086000179315053706::1705075221::1705075221::1::::<><>::
+ptform.png::CompressedTexture2D::8742475582366914581::1700976737::1704792640::1::::<><>::
+shakeTile.png::CompressedTexture2D::6928427587519762366::1701088964::1704792640::1::::<><>::
+small.png::CompressedTexture2D::3474581133310801133::1701695673::1704792640::1::::<><>::
+snow.png::CompressedTexture2D::8130779058634382837::1701613547::1704792640::1::::<><>::
+::res://assets/img/Day-construction/::1751136344
+2-copy.png::CompressedTexture2D::1318718085899163913::1702656850::1704792927::1::::<><>::
+3 - Copy.png::CompressedTexture2D::4798670992992686853::1702651697::1704792927::1::::<><>::
+4.png::CompressedTexture2D::2615896635799495499::1702304627::1704792927::1::::<><>::
+5-outline.png::CompressedTexture2D::3533908643119138649::1702468448::1704792927::1::::<><>::
+165-1653671_wood-clipart-wooden-hanging-sign-end-table-png (1).png::CompressedTexture2D::3886429907990240692::1704466595::1704792927::1::::<><>::
+Brickwall6_Texture.jpg::CompressedTexture2D::4673649251288874897::1704298635::1704792927::1::::<><>::
+d-platform.png::CompressedTexture2D::5409465434640327456::1704261438::1704792927::1::::<><>::
+::res://assets/img/logo/::1751136344
+192.png::CompressedTexture2D::1391550739834328939::1707413490::1707413491::1::::<><>::
+Can You Reach_ (DEBUG) 19_01_2024 16_24_35.png::CompressedTexture2D::1027478501379601175::1705666489::1705666500::1::::<><>::
+Creamy Yellow Orange Retro Gaming Logo.png::CompressedTexture2D::3273221532610071473::1705759762::1705759763::1::::<><>::
+insta.png::CompressedTexture2D::1264980055387005307::1705578631::1705578631::1::::<><>::
+::res://assets/img/night-construction/::1751136344
+2 - Copy.png::CompressedTexture2D::7826005481985704031::1703924176::1704792392::1::::<><>::
+3 - Copy.png::CompressedTexture2D::3950208283049001091::1703949500::1704792392::1::::<><>::
+5-outline (1).png::CompressedTexture2D::7393347740398790911::1703924176::1704792392::1::::<><>::
+5.png::CompressedTexture2D::339472811699902584::1702304627::1704792392::1::::<><>::
+night.png::CompressedTexture2D::7442104831649534844::1704265522::1704792392::1::::<><>::
+::res://assets/img/NPC/::1751136344
+::res://assets/img/NPC/bee/::1751136344
+Fly-Sheet.png::CompressedTexture2D::5448376452427709655::1705568192::1705568209::1::::<><>::
+::res://assets/img/NPC/boar/::1751136344
+Idle-Sheet-export-Back.png::CompressedTexture2D::6045341155012743815::1705568192::1705568209::1::::<><>::
+Idle-Sheet-White.png::CompressedTexture2D::6872711377673490499::1705568192::1705568209::1::::<><>::
+Idle-Sheet.png::CompressedTexture2D::776570182633724027::1705568192::1705568209::1::::<><>::
+::res://assets/img/NPC/me/::1751136344
+Idle-Sheet.png::CompressedTexture2D::2998300861148807069::1705568192::1705568209::1::::<><>::
+::res://assets/img/platform-tiles/::1751136345
+Buildings.png::CompressedTexture2D::1766377265703225926::1700976737::1704792692::1::::<><>::
+Free - Pixel Art Asset Pack - Sidescroller Fantasy - 16x16 Forest Sprites by Anokolisa - Google Chrome 26_11_2023 17_21_13.png::CompressedTexture2D::623294057890545495::1700999926::1704792692::1::::<><>::
+Hive.png::CompressedTexture2D::4594941725827329544::1700976737::1704792692::1::::<><>::
+Interior-01.png::CompressedTexture2D::9196011783265327385::1700976737::1704792692::1::::<><>::
+Props-Rocks.png::CompressedTexture2D::3373649102914993838::1700976737::1704792692::1::::<><>::
+snowTiles.png::CompressedTexture2D::206491975276065612::1701062088::1704792692::1::::<><>::
+Tiles.png::CompressedTexture2D::7138983910254956135::1700976738::1704792692::1::::<><>::
+Tileset.png::CompressedTexture2D::8923194929132748215::1704725976::1704979751::1::::<><>::
+Tree-Assets.png::CompressedTexture2D::3756962247105947547::1704807657::1704807657::1::::<><>::
+::res://assets/img/Stones & Brick Textures/::1751136345
+Bluerock_Texture.jpg::CompressedTexture2D::8918203041159343002::1701777912::1704792339::1::::<><>::
+Brick2_Texture.jpg::CompressedTexture2D::154379190950093716::1701777912::1704792339::1::::<><>::
+Brickwall2_Texture.png::CompressedTexture2D::8698031078827967480::1704291096::1704792339::1::::<><>::
+Brickwall3_Texture.png::CompressedTexture2D::2562896753776630066::1701782679::1704792339::1::::<><>::
+Brickwall4_Texture.png::CompressedTexture2D::8957048653404451494::1701777912::1704792339::1::::<><>::
+Brickwall5_Texture.png::CompressedTexture2D::1747777124857971929::1701782507::1704792339::1::::<><>::
+Brickwall6_Texture.png::CompressedTexture2D::2490293726383028738::1701777912::1704792339::1::::<><>::
+Brickwall_Texture.png::CompressedTexture2D::1307918567360920443::1701777912::1704792339::1::::<><>::
+Brick_Texture.png::CompressedTexture2D::9022516714231836063::1701777912::1704792339::1::::<><>::
+Darkmetal_Texture.png::CompressedTexture2D::8319677660968042018::1701777912::1704792339::1::::<><>::
+f-ptfrm.png::CompressedTexture2D::1634342462502890084::1702137742::1704792339::1::::<><>::
+png-transparent-collins-english-dictionary-translation-rocket-spaceship-english-spacecraft-rocket-launch-thumbnail (1).png::CompressedTexture2D::4422152687228906309::1705076752::1705076753::1::::<><>::
+Stones_Texture.png::CompressedTexture2D::2592688564559642468::1701777912::1704792339::1::::<><>::
+Stonewall_Spriteclip.png::CompressedTexture2D::5598170634576568490::1701777912::1704792340::1::::<><>::
+Stonewall_Texture.png::CompressedTexture2D::5494280344751412567::1705076253::1705075817::1::::<><>::
+::res://assets/img/Trees/::1751136345
+Dark-Tree.png::CompressedTexture2D::2167622539468575328::1700976738::1704793020::1::::<><>::
+Golden-Tree.png::CompressedTexture2D::4314842286943963003::1700976738::1704793020::1::::<><>::
+Green-Tree.png::CompressedTexture2D::5978406300552467265::1700976738::1704793020::1::::<><>::
+Red-Tree.png::CompressedTexture2D::4207179900598168937::1700976738::1704793020::1::::<><>::
+Sweet Signature.ttf::FontFile::3125214082847873251::1704812141::1704812141::1::::<><>::
+Yellow-Tree.png::CompressedTexture2D::6175593028704221024::1700976738::1704793020::1::::<><>::
+::res://assets/scripts/::1751136345
+Area2D.gd::GDScript::-1::1702121855::0::1::::<>Area2D<>::
+back_loading.gd::GDScript::-1::1705686376::0::1::::<>Node2D<>::
+controls.gd::GDScript::-1::1705674834::0::1::::<>Node2D<>::
+credits.gd::GDScript::-1::1705597490::0::1::::<>Node2D<>::
+falling_ptfrm_left.gd::GDScript::-1::1705213534::0::1::::<>CharacterBody2D<>::
+global.gd::GDScript::-1::1705600357::0::1::::<>Node<>::
+invi.gd::GDScript::-1::1705295489::0::1::::<>AnimatableBody2D<>::
+loading.gd::GDScript::-1::1705685795::0::1::::<>Node2D<>::
+main_menu.gd::GDScript::-1::1708422501::0::1::::<>Node2D<>::
+npc.gd::GDScript::-1::1705841508::0::1::::<>Node2D<>::
+pause.gd::GDScript::-1::1732085209::0::1::::<>Node2D<>::
+player.gd::GDScript::-1::1707397438::0::1::::<>CharacterBody2D<>::
+setings-mm.gd::GDScript::-1::1705299842::0::1::::<>Node2D<>::
+start_game.gd::GDScript::-1::1708418770::0::1::::<>Node2D<>::
+TileMap.gd::GDScript::-1::1705295489::0::1::::<>TileMap<>::
+trap.gd::GDScript::-1::1705295489::0::1::::<>Area2D<>::
+u_snow_fptfrm.gd::GDScript::-1::1705295490::0::1::::<>CharacterBody2D<>::
+::res://scenes/::1751136345
+back_loading.tscn::PackedScene::6011523063608677949::1708422519::0::1::::<><>::res://assets/scripts/back_loading.gd
+controls.tscn::PackedScene::8211749075236550354::1708419553::0::1::::<><>::res://assets/scripts/controls.gd<>uid://dwkn87j78lty8::::res://assets/Audio/click.mp3<>uid://iwc8ro5vocen::::res://assets/img/044bc039079c7c71d3fb8d4e8336d507.png
+credits.tscn::PackedScene::5710983003842130422::1708422519::0::1::::<><>::res://assets/scripts/credits.gd<>uid://dwkn87j78lty8::::res://assets/Audio/click.mp3<>uid://dnxjt3vmht0h3::::res://assets/font/fs gravity.ttf
+day_construction.tscn::PackedScene::8274938003660451130::1704792926::0::1::::<><>::uid://dakykvln2xex7
+falling-ptfrm-right.tscn::PackedScene::2323988079775746610::1705662140::0::1::::<><>::uid://c5yggp1drx12y
+falling_ptfrm_left.tscn::PackedScene::5764487008692058068::1704793405::0::1::::<><>::uid://c5yggp1drx12y
+J (1).png::CompressedTexture2D::456600819583687949::1705065965::1705066020::1::::<><>::
+limit.tscn::PackedScene::8698259245447690364::1701174061::0::1::::<><>::
+loading.tscn::PackedScene::5499656305743684270::1708423194::0::1::::<><>::res://assets/scripts/loading.gd<>uid://ge1m4g0vn1vp::::res://assets/character/Swordsman/Run.png
+main_menu.tscn::PackedScene::7454183971027315302::1708423086::0::1::::<><>::res://assets/scripts/main_menu.gd<>uid://dnxjt3vmht0h3::::res://assets/font/fs gravity.ttf<>uid://b4xme0ot036vv::::res://assets/background/Can You Reach_ (DEBUG) 21_01_2024 17_39_47.png<>uid://b70obqr4jh27v::::res://assets/character/Swordsman/Idle.png<>uid://dwkn87j78lty8::::res://assets/Audio/click.mp3<>uid://sa1biokvc1ox::::res://assets/img/logo/insta.png<>uid://c31kvlf3dr7hq::::res://assets/character/Swordsman/Dead.png<>uid://be67h6j3cldbu::::res://assets/Audio/No Copyright Music  Lofi - Lofi Loop 1 Minute Looping.mp3
+night_construction_bg.tscn::PackedScene::3620578563540002125::1704792412::0::1::::<><>::uid://cx3yibr2kqfwt
+npc.tscn::PackedScene::1427817914663704628::1705856828::0::1::::<><>::res://assets/scripts/npc.gd<>uid://cjvh71tdlgifn
+player.tscn::PackedScene::223284783240905783::1704792809::0::1::::<><>::res://assets/scripts/player.gd<>uid://b70obqr4jh27v
+setings.tscn::PackedScene::1348903965744151576::1705299576::0::1::::<><>::res://assets/scripts/setings-mm.gd
+start_game.tscn::PackedScene::998122682195914910::1732085227::0::1::::<><>::uid://c8yga0obcnpd4::::res://assets/img/platform-tiles/Tiles.png<>uid://cmvngx38r0b2d::::res://assets/background/snow-bg.png<>res://assets/scripts/start_game.gd<>uid://6p4wgm684fkm::::res://assets/background/Background(half).png<>uid://dp5paxbufdfli::::res://scenes/day_construction.tscn<>uid://crf8qi6why0fd::::res://assets/img/Trees/Green-Tree.png<>uid://brt3nummd28yr::::res://scenes/night_construction_bg.tscn<>uid://b2qe27kh4mjrf::::res://assets/img/Trees/Golden-Tree.png<>uid://55aorcnkofxo::::res://assets/img/Trees/Dark-Tree.png<>uid://ct8rd53yfnnsq::::res://assets/img/Trees/Yellow-Tree.png<>uid://dgfp5y0ny3ih::::res://scenes/player.tscn<>uid://c77bhfcdtn1ky::::res://assets/background/bg_space_seamless_1.png<>uid://dv6rcaeu50nqa::::res://scenes/limit.tscn<>uid://b068vx4g2a4rd::::res://assets/img/Trees/Red-Tree.png<>uid://btr5vb6nj6v4f::::res://assets/img/platform-tiles/Tree-Assets.png<>uid://0fv8fw4lj2jq::::res://assets/img/platform-tiles/Buildings.png<>uid://coemi2hdjh381::::res://scenes/falling_ptfrm_left.tscn<>uid://y5vvs1sagknh::::res://assets/img/Stones & Brick Textures/Brickwall5_Texture.png<>uid://dws6kbwj8yepx::::res://assets/img/ptform.png<>uid://dnwnowgrmnjsl::::res://assets/background/Background.png<>uid://d4au786f2bivx::::res://assets/img/platform-tiles/Interior-01.png<>uid://c7a5l6i7xcga::::res://assets/img/platform-tiles/snowTiles.png<>uid://8d00khqnggkg::::res://scenes/falling-ptfrm-right.tscn<>uid://cjcndt2xnhbhg::::res://assets/img/Day-construction/d-platform.png<>uid://debam5o6axni7::::res://assets/img/night-construction/night.png<>uid://bcrqsgthdltne::::res://assets/img/Stones & Brick Textures/Brickwall3_Texture.png<>uid://cje8ixrlbj5ih::::res://scenes/u_snow_fptfrm.tscn<>res://assets/scripts/TileMap.gd<>uid://gtc4j3tt0brm::::res://assets/img/moving-iceptfrm.png<>res://assets/scripts/trap.gd<>uid://dqsd41e4bidmo::::res://assets/img/Stones & Brick Textures/Darkmetal_Texture.png<>uid://dn3u0jdyg0prp::::res://assets/img/snow.png<>uid://i46td0td4osd::::res://assets/img/platform-tiles/Free - Pixel Art Asset Pack - Sidescroller Fantasy - 16x16 Forest Sprites by Anokolisa - Google Chrome 26_11_2023 17_21_13.png<>uid://bvmu6yjuiid2s::::res://assets/img/Day-construction/165-1653671_wood-clipart-wooden-hanging-sign-end-table-png (1).png<>uid://bprd3xh00o3xp::::res://assets/img/small.png<>uid://xjxm8drc2nvo::::res://assets/img/Stones & Brick Textures/f-ptfrm.png<>uid://dv6nkibi0p2ca::::res://assets/img/Stones & Brick Textures/Brickwall2_Texture.png<>uid://b7t7k5kv56vyv::::res://assets/img/Day-construction/Brickwall6_Texture.jpg<>uid://b6p3av3wb2lum::::res://assets/img/platform-tiles/Hive.png<>uid://ckjp82x633qct::::res://assets/img/Stones & Brick Textures/Stonewall_Texture.png<>uid://d0epymuvibprr::::res://assets/img/platform-tiles/Tileset.png<>res://assets/scripts/invi.gd<>res://assets/scripts/pause.gd<>uid://dnxjt3vmht0h3::::res://assets/font/fs gravity.ttf<>uid://b4aehdhywx15j::::res://assets/img/Stones & Brick Textures/png-transparent-collins-english-dictionary-translation-rocket-spaceship-english-spacecraft-rocket-launch-thumbnail (1).png<>uid://ulv7nbafh4lc::::res://scenes/npc.tscn<>uid://brlafr02rw1fj::::res://assets/Audio/mobile_gmsJA9yM.mp3<>uid://dwecp02ecmw31::::res://assets/img/arrow.png<>uid://cdh7wey5v8c3h::::res://assets/Audio/jump.mp3
+u_snow_fptfrm.tscn::PackedScene::5414817653057508231::1704792339::0::1::::<><>::res://assets/scripts/u_snow_fptfrm.gd<>uid://xjxm8drc2nvo

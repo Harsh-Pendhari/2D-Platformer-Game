@@ -1,0 +1,77 @@
+[gd_scene load_steps=8 format=3 uid="uid://cje8ixrlbj5ih"]
+
+[ext_resource type="Script" path="res://assets/scripts/u_snow_fptfrm.gd" id="1_vwqd0"]
+[ext_resource type="Texture2D" uid="uid://xjxm8drc2nvo" path="res://assets/img/Stones & Brick Textures/f-ptfrm.png" id="2_duuw7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ae575"]
+size = Vector2(20, 3)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yebf7"]
+size = Vector2(20, 2)
+
+[sub_resource type="Animation" id="Animation_b8ao3"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_cohew"]
+resource_name = "shake"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(-1, 0), Vector2(0, 0), Vector2(1, 0), Vector2(0, 0), Vector2(-1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ms3n8"]
+_data = {
+"RESET": SubResource("Animation_b8ao3"),
+"shake": SubResource("Animation_cohew")
+}
+
+[node name="u-snow-fptfrm" type="CharacterBody2D"]
+script = ExtResource("1_vwqd0")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_duuw7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -3.5)
+shape = SubResource("RectangleShape2D_ae575")
+
+[node name="entered" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="entered"]
+position = Vector2(0, -7)
+shape = SubResource("RectangleShape2D_yebf7")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 3.0
+one_shot = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_ms3n8")
+}
+
+[connection signal="body_entered" from="entered" to="." method="_on_entered_body_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

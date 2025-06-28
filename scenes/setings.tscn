@@ -1,0 +1,74 @@
+[gd_scene load_steps=4 format=3 uid="uid://thoisoxaoqh1"]
+
+[ext_resource type="Script" path="res://assets/scripts/setings-mm.gd" id="1_c2m1r"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_be0y5"]
+bg_color = Color(0, 0, 0, 0.862745)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ucey4"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0, 0, 0, 0.862745)
+border_blend = true
+
+[node name="setings" type="Node2D"]
+script = ExtResource("1_c2m1r")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0, 0, 0, 0.862745)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="CanvasLayer"]
+offset_left = 11.0
+offset_top = 43.0
+offset_right = 146.0
+offset_bottom = 154.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_be0y5")
+metadata/_edit_group_ = true
+
+[node name="Button" type="Button" parent="CanvasLayer"]
+offset_left = 59.0
+offset_top = 118.0
+offset_right = 91.0
+offset_bottom = 140.0
+theme_override_font_sizes/font_size = 10
+text = "Back"
+metadata/_edit_group_ = true
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+offset_left = 11.0
+offset_top = 14.0
+offset_right = 146.0
+offset_bottom = 44.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_ucey4")
+text = "SETTINGS"
+horizontal_alignment = 1
+
+[node name="music" type="CheckBox" parent="CanvasLayer"]
+offset_left = 40.0
+offset_top = 52.0
+offset_right = 135.0
+offset_bottom = 83.0
+scale = Vector2(0.7, 0.7)
+theme_override_constants/h_separation = 25
+theme_override_constants/check_v_offset = 1
+text = "Music"
+
+[node name="sound" type="CheckBox" parent="CanvasLayer"]
+offset_left = 40.0
+offset_top = 83.0
+offset_right = 138.0
+offset_bottom = 114.0
+scale = Vector2(0.7, 0.7)
+theme_override_constants/h_separation = 25
+theme_override_constants/check_v_offset = 1
+text = "Sound"
+
+[connection signal="pressed" from="CanvasLayer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/music" to="." method="_on_music_pressed"]

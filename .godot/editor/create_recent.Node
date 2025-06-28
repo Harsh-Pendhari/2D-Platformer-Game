@@ -1,0 +1,14 @@
+Sprite2D
+AnimationPlayer
+AnimatedSprite2D
+Button
+TouchScreenButton
+Panel
+CanvasLayer
+Node2D
+CollisionShape2D
+VScrollBar
+Label
+Camera2D
+VideoStreamPlayer
+ColorRect

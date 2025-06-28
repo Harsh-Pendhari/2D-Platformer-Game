@@ -1,0 +1,459 @@
+[gd_scene load_steps=31 format=3 uid="uid://deg4k587g6x07"]
+
+[ext_resource type="Script" path="res://assets/scripts/main_menu.gd" id="1_x0s4x"]
+[ext_resource type="FontFile" uid="uid://dnxjt3vmht0h3" path="res://assets/font/fs gravity.ttf" id="2_8rqh5"]
+[ext_resource type="Texture2D" uid="uid://b4xme0ot036vv" path="res://assets/background/Can You Reach_ (DEBUG) 21_01_2024 17_39_47.png" id="2_dxn5i"]
+[ext_resource type="Texture2D" uid="uid://b70obqr4jh27v" path="res://assets/character/Swordsman/Idle.png" id="2_feful"]
+[ext_resource type="AudioStream" uid="uid://dwkn87j78lty8" path="res://assets/Audio/click.mp3" id="2_uenv4"]
+[ext_resource type="Texture2D" uid="uid://sa1biokvc1ox" path="res://assets/img/logo/insta.png" id="3_f5byr"]
+[ext_resource type="Texture2D" uid="uid://c31kvlf3dr7hq" path="res://assets/character/Swordsman/Dead.png" id="3_g13ad"]
+[ext_resource type="AudioStream" uid="uid://be67h6j3cldbu" path="res://assets/Audio/No Copyright Music  Lofi - Lofi Loop 1 Minute Looping.mp3" id="4_u2x27"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d7pdo"]
+atlas = ExtResource("2_feful")
+region = Rect2(0, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jje5r"]
+atlas = ExtResource("2_feful")
+region = Rect2(128, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_426st"]
+atlas = ExtResource("2_feful")
+region = Rect2(256, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tekdx"]
+atlas = ExtResource("2_feful")
+region = Rect2(384, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s10cg"]
+atlas = ExtResource("2_feful")
+region = Rect2(512, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_d1nkt"]
+atlas = ExtResource("2_feful")
+region = Rect2(640, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hef6x"]
+atlas = ExtResource("2_feful")
+region = Rect2(768, 0, 128, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xwbge"]
+atlas = ExtResource("2_feful")
+region = Rect2(896, 0, 128, 128)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ypwkr"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d7pdo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jje5r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_426st")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tekdx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s10cg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d1nkt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hef6x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xwbge")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ld1wb"]
+bg_color = Color(0.0392157, 0.588235, 0.627451, 0.705882)
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+shadow_size = 1
+shadow_offset = Vector2(3, 3)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pbahg"]
+bg_color = Color(0.0392157, 0.588235, 0.627451, 0.784314)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+shadow_size = 3
+shadow_offset = Vector2(2, 2)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_kf3dt"]
+bg_color = Color(0.823529, 0, 0, 0.784314)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 1
+shadow_offset = Vector2(1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_c65dh"]
+bg_color = Color(0.823529, 0, 0, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 2
+shadow_offset = Vector2(1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_wrdjs"]
+bg_color = Color(0, 0, 0, 0.666667)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 2
+shadow_offset = Vector2(1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y12b2"]
+bg_color = Color(0.823529, 0, 0, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 1
+shadow_offset = Vector2(2, 2)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0rysq"]
+bg_color = Color(0.117647, 0.568627, 0, 0.784314)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 1
+shadow_offset = Vector2(1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_30elf"]
+bg_color = Color(0.117647, 0.568627, 0, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 2
+shadow_offset = Vector2(1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ravxt"]
+bg_color = Color(0, 0, 0, 0.666667)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 2
+shadow_offset = Vector2(1, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j4765"]
+bg_color = Color(0.117647, 0.568627, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.137255, 0.588235, 0, 1)
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_size = 1
+shadow_offset = Vector2(2, 2)
+
+[sub_resource type="Animation" id="Animation_2xado"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [1]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(138, -48)]
+}
+
+[sub_resource type="Animation" id="Animation_oaxub"]
+resource_name = "fall"
+length = 4.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [1, 2]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(138, -48), Vector2(138, 162)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_lrv25"]
+_data = {
+"RESET": SubResource("Animation_2xado"),
+"fall": SubResource("Animation_oaxub")
+}
+
+[node name="Main-Menu" type="Node2D"]
+process_mode = 3
+script = ExtResource("1_x0s4x")
+
+[node name="CanYouReach(debug)21012024173947" type="Sprite2D" parent="."]
+position = Vector2(318.643, 166)
+scale = Vector2(0.444168, 0.378898)
+texture = ExtResource("2_dxn5i")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(138, -48)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("3_g13ad")
+hframes = 3
+frame = 1
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0, 0, 0, 0.705882)
+metadata/_edit_lock_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(97, 21)
+scale = Vector2(0.210938, 0.210938)
+sprite_frames = SubResource("SpriteFrames_ypwkr")
+autoplay = "default"
+frame_progress = 0.261007
+
+[node name="buttons" type="MarginContainer" parent="."]
+offset_left = 12.0
+offset_top = 2.0
+offset_right = 103.0
+offset_bottom = 177.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 75
+metadata/_edit_lock_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="buttons"]
+layout_mode = 2
+theme_override_constants/separation = 4
+alignment = 1
+
+[node name="continue" type="Button" parent="buttons/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_8rqh5")
+theme_override_font_sizes/font_size = 12
+text = "CONTINUE"
+
+[node name="new" type="Button" parent="buttons/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_8rqh5")
+theme_override_font_sizes/font_size = 12
+text = "NEW GAME"
+
+[node name="click" type="AudioStreamPlayer2D" parent="buttons/VBoxContainer/new"]
+stream = ExtResource("2_uenv4")
+volume_db = 2.0
+
+[node name="controls" type="Button" parent="buttons/VBoxContainer"]
+visible = false
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_8rqh5")
+theme_override_font_sizes/font_size = 12
+text = "CONTROLS
+"
+
+[node name="ctrl" type="AudioStreamPlayer2D" parent="buttons/VBoxContainer/controls"]
+stream = ExtResource("2_uenv4")
+volume_db = 2.0
+
+[node name="credits" type="Button" parent="buttons/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_8rqh5")
+theme_override_font_sizes/font_size = 12
+text = "CREDITS"
+
+[node name="credit" type="AudioStreamPlayer2D" parent="buttons/VBoxContainer/credits"]
+stream = ExtResource("2_uenv4")
+volume_db = 2.0
+
+[node name="exit_btn" type="Button" parent="buttons/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_8rqh5")
+theme_override_font_sizes/font_size = 12
+text = "EXIT"
+
+[node name="exitt" type="AudioStreamPlayer2D" parent="buttons/VBoxContainer/exit_btn"]
+stream = ExtResource("2_uenv4")
+volume_db = 2.0
+
+[node name="title" type="MarginContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 20
+metadata/_edit_lock_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="title"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="title/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_8rqh5")
+theme_override_font_sizes/font_size = 38
+text = "Can You Reach ?
+"
+
+[node name="exit" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="exit"]
+offset_left = 195.0
+offset_top = 107.0
+offset_right = 313.0
+offset_bottom = 176.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_ld1wb")
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="exit"]
+offset_left = 182.0
+offset_top = 91.0
+offset_right = 327.0
+offset_bottom = 114.0
+theme_override_fonts/font = ExtResource("2_8rqh5")
+theme_override_font_sizes/font_size = 11
+theme_override_styles/normal = SubResource("StyleBoxFlat_pbahg")
+text = "Are you Sure you Want To Exit ?"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Yes" type="Button" parent="exit"]
+offset_left = 209.0
+offset_top = 139.0
+offset_right = 237.0
+offset_bottom = 159.0
+mouse_default_cursor_shape = 2
+theme_override_fonts/font = ExtResource("2_8rqh5")
+theme_override_font_sizes/font_size = 10
+theme_override_styles/normal = SubResource("StyleBoxFlat_kf3dt")
+theme_override_styles/hover = SubResource("StyleBoxFlat_c65dh")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_wrdjs")
+theme_override_styles/focus = SubResource("StyleBoxFlat_y12b2")
+text = "Yes"
+metadata/_edit_use_anchors_ = true
+
+[node name="yess" type="AudioStreamPlayer2D" parent="exit/Yes"]
+stream = ExtResource("2_uenv4")
+volume_db = 2.0
+
+[node name="no" type="Button" parent="exit"]
+offset_left = 269.0
+offset_top = 139.0
+offset_right = 298.0
+offset_bottom = 159.0
+mouse_default_cursor_shape = 2
+theme_override_constants/outline_size = 1
+theme_override_fonts/font = ExtResource("2_8rqh5")
+theme_override_font_sizes/font_size = 10
+theme_override_styles/normal = SubResource("StyleBoxFlat_0rysq")
+theme_override_styles/hover = SubResource("StyleBoxFlat_30elf")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_ravxt")
+theme_override_styles/focus = SubResource("StyleBoxFlat_j4765")
+text = "No"
+metadata/_edit_use_anchors_ = true
+
+[node name="noo" type="AudioStreamPlayer2D" parent="exit/no"]
+stream = ExtResource("2_uenv4")
+volume_db = 2.0
+
+[node name="studio" type="Sprite2D" parent="."]
+position = Vector2(15.6, 246)
+scale = Vector2(0.011, 0.01)
+texture = ExtResource("3_f5byr")
+
+[node name="studio2" type="LinkButton" parent="."]
+offset_left = 27.6
+offset_top = 239.0
+offset_right = 129.6
+offset_bottom = 254.0
+theme_override_fonts/font = ExtResource("2_8rqh5")
+theme_override_font_sizes/font_size = 10
+text = "instagram/ jj_game_studio"
+underline = 1
+uri = "https://www.instagram.com/jj_game_studio"
+
+[node name="game" type="Sprite2D" parent="."]
+position = Vector2(15.6, 225)
+scale = Vector2(0.011, 0.01)
+texture = ExtResource("3_f5byr")
+
+[node name="game2" type="LinkButton" parent="."]
+offset_left = 27.6
+offset_top = 219.0
+offset_right = 132.6
+offset_bottom = 234.0
+theme_override_fonts/font = ExtResource("2_8rqh5")
+theme_override_font_sizes/font_size = 10
+text = "instagram/ can_you_reach_"
+underline = 1
+uri = "https://www.instagram.com/can_you_reach_"
+
+[node name="bgm" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_u2x27")
+volume_db = -28.0
+autoplay = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_lrv25")
+}
+autoplay = "fall"
+
+[connection signal="pressed" from="buttons/VBoxContainer/continue" to="." method="_on_continue_pressed"]
+[connection signal="pressed" from="buttons/VBoxContainer/new" to="." method="_on_new_pressed"]
+[connection signal="finished" from="buttons/VBoxContainer/new/click" to="." method="_on_click_finished"]
+[connection signal="pressed" from="buttons/VBoxContainer/controls" to="." method="_on_controls_pressed"]
+[connection signal="finished" from="buttons/VBoxContainer/controls/ctrl" to="." method="_on_ctrl_finished"]
+[connection signal="pressed" from="buttons/VBoxContainer/credits" to="." method="_on_credits_pressed"]
+[connection signal="finished" from="buttons/VBoxContainer/credits/credit" to="." method="_on_credit_finished"]
+[connection signal="pressed" from="buttons/VBoxContainer/exit_btn" to="." method="_on_exit_pressed"]
+[connection signal="finished" from="buttons/VBoxContainer/exit_btn/exitt" to="." method="_on_exitt_finished"]
+[connection signal="pressed" from="exit/Yes" to="." method="_on_yes_pressed"]
+[connection signal="finished" from="exit/Yes/yess" to="." method="_on_yess_finished"]
+[connection signal="pressed" from="exit/no" to="." method="_on_no_pressed"]
+[connection signal="finished" from="exit/no/noo" to="." method="_on_noo_finished"]

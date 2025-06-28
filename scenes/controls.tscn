@@ -1,0 +1,118 @@
+[gd_scene load_steps=8 format=3 uid="uid://do83kpqw3e43g"]
+
+[ext_resource type="Script" path="res://assets/scripts/controls.gd" id="1_117l7"]
+[ext_resource type="AudioStream" uid="uid://dwkn87j78lty8" path="res://assets/Audio/click.mp3" id="2_w543b"]
+[ext_resource type="Texture2D" uid="uid://iwc8ro5vocen" path="res://assets/img/044bc039079c7c71d3fb8d4e8336d507.png" id="3_dfeqn"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ev668"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_npjx3"]
+bg_color = Color(0, 0, 0, 1)
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cbniu"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dc0m5"]
+bg_color = Color(0, 0, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_blend = true
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[node name="controls" type="Node2D"]
+script = ExtResource("1_117l7")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0, 0, 0, 0.901961)
+metadata/_edit_lock_ = true
+
+[node name="Panel" type="Panel" parent="."]
+visible = false
+offset_left = 13.0
+offset_top = 18.0
+offset_right = 222.0
+offset_bottom = 117.0
+
+[node name="jump" type="Label" parent="."]
+visible = false
+offset_left = 24.0
+offset_top = 17.0
+offset_right = 257.0
+offset_bottom = 121.0
+theme_override_font_sizes/font_size = 10
+text = "JUMP                  ->                 <SPACE>
+LEFT                   ->                   Arrow-left
+RIGHT                ->                   Arrow-right
+PAUSE-GAME   ->                   Esc key"
+vertical_alignment = 1
+
+[node name="click" type="AudioStreamPlayer2D" parent="."]
+visible = false
+stream = ExtResource("2_w543b")
+volume_db = 2.0
+
+[node name="044Bc039079c7c71d3Fb8d4e8336d507" type="Sprite2D" parent="."]
+position = Vector2(308.106, 115.25)
+scale = Vector2(0.437355, 0.437355)
+texture = ExtResource("3_dfeqn")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 329.106
+offset_top = 68.25
+offset_right = 360.106
+offset_bottom = 81.25
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 7
+theme_override_styles/normal = SubResource("StyleBoxFlat_ev668")
+theme_override_styles/hover = SubResource("StyleBoxFlat_npjx3")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_cbniu")
+theme_override_styles/focus = SubResource("StyleBoxFlat_dc0m5")
+text = "< BACK "
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 279.0
+offset_top = 188.0
+offset_right = 310.0
+offset_bottom = 201.0
+mouse_default_cursor_shape = 2
+theme_override_font_sizes/font_size = 7
+theme_override_styles/normal = SubResource("StyleBoxFlat_ev668")
+theme_override_styles/hover = SubResource("StyleBoxFlat_npjx3")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_cbniu")
+theme_override_styles/focus = SubResource("StyleBoxFlat_dc0m5")
+text = "< BACK "
+
+[connection signal="finished" from="click" to="." method="_on_click_finished"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_pressed"]
