@@ -13,7 +13,8 @@
 
 ## 📸 Screenshots
 
-![Can You Reach_ 6_15_2025 9_31_13 PM](https://github.com/user-attachments/assets/b5164762-02c1-4456-b1c2-9fc75e5f49e3)
+![Can You Reach_ 6_15_2025 9_31_13 PM](https://github.com/user-attachments/assets/764fef91-0a98-40e9-acb6-9e9329eba290)
+
 
 
 ## 🚀 How to Run
